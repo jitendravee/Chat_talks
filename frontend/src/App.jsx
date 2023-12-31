@@ -6,6 +6,7 @@ import {Routes,Route } from 'react-router-dom';
 import ContactUs from './pages/ContactUs';
 import Home from './pages/Home';
 import Nav from './components/Nav';
+import Chat from './pages/chat';
 const App = () => {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="/signup" element = {< SignUp />} />
       <Route path="/" element = {< Home />} />
       <Route path="/contact" element = {< ContactUs />} />
+      <Route path="/chat" element = {< Chat />} />
 
     </Routes>
     </BrowserRouter>

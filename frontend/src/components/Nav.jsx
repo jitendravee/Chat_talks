@@ -16,14 +16,14 @@ const Nav = () => {
         <div className="bg-[#d1ecf1] p-4">
 
             <div className="flex flex-row justify-between ">
-                <Link to='/'>
+                <Link to='/signup'>
                     <h1 className='flex flex-row font-bold text-xl'>
 
                         <HiChatAlt2 className="bg-slate-300 rounded-lg" />
                         Chatio</h1>
-                </Link> 
+               </Link>
                 <div className='sm:hidden text-lg'>
-                <IoMenu onClick={toogleMenu}  />
+                <IoMenu onClick={toogleMenu} className="cursor-pointer" />
                 {showMenu && (
 
                     <>
